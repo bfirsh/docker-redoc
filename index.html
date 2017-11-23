@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ReDoc</title>
+    <title>$PAGE_TITLE</title>
     <!-- needed for adaptive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-    <redoc spec-url="swagger.yaml" $REDOC_OPTIONS></redoc>
+    <redoc spec-url="$SPEC_URL" $REDOC_OPTIONS></redoc>
     <script src="redoc.1.14.0.min.js"> </script>
   </body>
 </html>
