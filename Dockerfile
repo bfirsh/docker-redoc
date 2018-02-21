@@ -1,4 +1,4 @@
-FROM nginx:1.13.8-alpine
+FROM nginx:1.13.9-alpine
 ENV PAGE_TITLE=ReDoc
 ENV SPEC_URL=swagger.yaml
 ENV REDOC_OPTIONS=
